@@ -67,56 +67,56 @@ namespace ScreeningRubric
 	// The anatomy of  Class: it has Data(represented by fields) and Behavior(represented by methods / functions)
 	public class Application
 	{
-		private int RequiredDocuments; // They had all required documents.
-		private int Grade; // They have the required grade and class prerequisites.
-		private int DocumentOrganization; // Their application documents were organized and professional.
-		private int WorkExperience; // Any work experience.
-		private int WorkExperienceRelated; // Work experience directly related to the Job(TA or Tutor experience.
+		private double RequiredDocuments; // They had all required documents.
+		private double Grade; // They have the required grade and class prerequisites.
+		private double DocumentOrganization; // Their application documents were organized and professional.
+		private double WorkExperience; // Any work experience.
+		private double WorkExperienceRelated; // Work experience directly related to the Job(TA or Tutor experience.
 
 
-		public void setrequiredDocuments(int documents)
+		public void setrequiredDocuments(double documents)
 		{
 			this.RequiredDocuments = documents;
 
 		}
-		public void setgrade(int grade)
+		public void setgrade(double grade)
 		{
 			this.Grade = grade;
 		}
-		public void setdocumentOrg(int docOrganization)
+		public void setdocumentOrg(double docOrganization)
 		{
 			this.DocumentOrganization = docOrganization;
 		}
-		public void setworkExp(int experience)
+		public void setworkExp(double experience)
 		{
 			this.WorkExperience = experience;
 		}
-		public void setworkExpRelated(int experiencerelated)
+		public void setworkExpRelated(double experiencerelated)
 		{
 			this.WorkExperienceRelated = experiencerelated;
 		}
 
 
-		public int getrequiredDoc()
+		public double getrequiredDoc()
 		{
 			return this.RequiredDocuments;
 		}
 
-		public int getgrade()
+		public double getgrade()
 		{
 			return this.Grade;
 		}
 
-		public int getdocumentOrg()
+		public double getdocumentOrg()
 		{
 			return this.DocumentOrganization;
 		}
-		public int getworkExperience()
+		public double getworkExperience()
 		{
 			return this.WorkExperience;
 		}
 
-		public int getworkExperienceRel()
+		public double getworkExperienceRel()
 		{
 			return this.WorkExperienceRelated;
 		}
