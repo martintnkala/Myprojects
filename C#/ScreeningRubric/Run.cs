@@ -85,9 +85,14 @@ namespace ScreeningRubric
 				Console.WriteLine("Moderate score, you could hire if you don't have candidates with score above 5.9");
 			}
 
+			else if (finallResult >= 6 && finallResult <= 7)
+			{
+				Console.Write("Good candidate please hire.");
+			}
+
 			else
 			{
-				Console.WriteLine("Good candidate please hire.");
+				Console.WriteLine("Grade out of range\n\n");
 			}
 
 		}
