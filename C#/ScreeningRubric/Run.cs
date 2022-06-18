@@ -9,11 +9,11 @@ namespace ScreeningRubric
 			Application John = new Application();
 
 			
-			John.setrequiredDocuments(5);
-			John.setgrade(6);
-			John.setdocumentOrg(6);
-			John.setworkExp(6);
-			John.setworkExpRelated(7);
+			John.setrequiredDocuments(6.3F);
+			John.setgrade(6F);
+			John.setdocumentOrg(6F);
+			John.setworkExp(6F);
+			John.setworkExpRelated(6F);
 
 
 			// This a second instance of the Object class(Application)
