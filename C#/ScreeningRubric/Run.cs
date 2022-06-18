@@ -9,7 +9,7 @@ namespace ScreeningRubric
 			Application John = new Application();
 
 			
-			John.setrequiredDocuments(6.3F);
+			John.setrequiredDocuments(6.5F);
 			John.setgrade(6F);
 			John.setdocumentOrg(6F);
 			John.setworkExp(6F);
