@@ -21,11 +21,11 @@ namespace ScreeningRubric
 			Application Smith = new Application();
 
 
-			Smith.setrequiredDocuments(7);
-			Smith.setgrade(6.5);
-			Smith.setdocumentOrg(5.5);
-			Smith.setworkExp(7);
-			Smith.setworkExpRelated(5.4);
+			Smith.setrequiredDocuments(5.5F);
+			Smith.setgrade(5F);
+			Smith.setdocumentOrg(5.5F);
+			Smith.setworkExp(5F);
+			Smith.setworkExpRelated(5.5F);
 
 
 
@@ -37,22 +37,27 @@ namespace ScreeningRubric
 
 			// Finding John's Overall score
 
-			double results = John.getrequiredDoc() + John.getgrade() + John.getdocumentOrg() + John.getworkExperience() + John.getworkExperienceRel();
-			float finallResult = (float)results / 5;
+			float results = (float)(John.getrequiredDoc() + John.getgrade() + John.getdocumentOrg() + John.getworkExperience() + John.getworkExperienceRel());
+			float finallResult =(results / 5);
 			Console.WriteLine("Overall Score for John: " + finallResult);
 
 			if (finallResult < 5)
 			{
 				Console.WriteLine("Failed. Please don't hire.");
 			}
-			else if (finallResult >= 5 && finallResult <= 5.9)
+			else if (finallResult >= 5 && finallResult <= 5.9) 
 			{
 				Console.WriteLine("Moderate score, you could hire if you don't have candidates with score above 5.9");
 			}
 
+			else if (finallResult >= 6 && finallResult <= 7)
+            {
+				Console.Write("Good candidate please hire.");
+            }
+
 			else
 			{
-				Console.WriteLine("Good candidate please hire.\n\n");
+				Console.WriteLine("Grade out of range\n\n");
 			}
 
 
@@ -65,8 +70,8 @@ namespace ScreeningRubric
 
 			// Finding Smith's Overall score
 
-			double myresults = John.getrequiredDoc() + Smith.getgrade() + Smith.getdocumentOrg() + Smith.getworkExperience() + Smith.getworkExperienceRel();
-			float myfinallResult = (float)myresults / 5;
+			float myresults = (float)(Smith.getrequiredDoc() + Smith.getgrade() + Smith.getdocumentOrg() + Smith.getworkExperience() + Smith.getworkExperienceRel());
+			float myfinallResult = (myresults / 5);
 			Console.WriteLine("Overall Score for Smith: " + myfinallResult);
 
 			// Conditional statement for Smith's scores

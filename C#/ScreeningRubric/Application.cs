@@ -67,31 +67,31 @@ namespace ScreeningRubric
 	// The anatomy of  Class: it has Data(represented by fields) and Behavior(represented by methods / functions)
 	public class Application
 	{
-		private double RequiredDocuments; // They had all required documents.
-		private double Grade; // They have the required grade and class prerequisites.
-		private double DocumentOrganization; // Their application documents were organized and professional.
-		private double WorkExperience; // Any work experience.
-		private double WorkExperienceRelated; // Work experience directly related to the Job(TA or Tutor experience.
+		private float RequiredDocuments; // They had all required documents.
+		private float Grade; // They have the required grade and class prerequisites.
+		private float DocumentOrganization; // Their application documents were organized and professional.
+		private float WorkExperience; // Any work experience.
+		private float WorkExperienceRelated; // Work experience directly related to the Job(TA or Tutor experience.
 
 
-		public void setrequiredDocuments(double documents)
+		public void setrequiredDocuments(float documents)
 		{
 			this.RequiredDocuments = documents;
 
 		}
-		public void setgrade(double grade)
+		public void setgrade(float grade)
 		{
 			this.Grade = grade;
 		}
-		public void setdocumentOrg(double docOrganization)
+		public void setdocumentOrg(float docOrganization)
 		{
 			this.DocumentOrganization = docOrganization;
 		}
-		public void setworkExp(double experience)
+		public void setworkExp(float experience)
 		{
 			this.WorkExperience = experience;
 		}
-		public void setworkExpRelated(double experiencerelated)
+		public void setworkExpRelated(float experiencerelated)
 		{
 			this.WorkExperienceRelated = experiencerelated;
 		}
