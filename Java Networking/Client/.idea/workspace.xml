@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77775092-100c-4427-beeb-6474ab405e27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Networking/Networking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Networking/Networking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/Java Networking.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java Networking/Networking/Networking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Group Project Tutorial/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Group Project Tutorial/Game.py" afterDir="false" />
+    <list default="true" id="1ad86904-5f02-44c0-8ff1-06449f2d1639" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nkala/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nkala/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clientt/src/Client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Networking/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Networking/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Nkala/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Nkala/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +21,23 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2BAenjuLCQD8LAL0KH8sFbSySnf" />
+  <component name="ProjectId" id="2BAgiz6UyQDVjqGK6lFMoyDmmys" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,26 +51,45 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Nkala.Client" />
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Nkala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77775092-100c-4427-beeb-6474ab405e27" name="Changes" comment="" />
-      <created>1656353489395</created>
+      <changelist id="1ad86904-5f02-44c0-8ff1-06449f2d1639" name="Changes" comment="" />
+      <created>1656354437549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656353489395</updated>
+      <updated>1656354437549</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
