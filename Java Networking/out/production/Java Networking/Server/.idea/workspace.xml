@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ad86904-5f02-44c0-8ff1-06449f2d1639" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Server/src/Nkala/Echoer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nkala/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nkala/Client.java" afterDir="false" />
+    <list default="true" id="45ba87c1-c180-4e69-a3f4-40502699d7b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Nkala/Echoer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nkala/Echoer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Nkala/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Nkala/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Clientt/src/Client/Client.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Networking/Client.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Networking/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Nkala/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Nkala/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nkala/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nkala/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +39,24 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2BAgiz6UyQDVjqGK6lFMoyDmmys" />
+  <component name="ProjectId" id="2BAgT3A6jSont4GGG6nxhETeHTj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowCover.ShowToolbar": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Nkala.Client" />
-      <module name="Client" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Nkala.Server" />
+      <module name="Server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Nkala.*" />
@@ -68,18 +69,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ad86904-5f02-44c0-8ff1-06449f2d1639" name="Changes" comment="" />
-      <created>1656354437549</created>
+      <changelist id="45ba87c1-c180-4e69-a3f4-40502699d7b7" name="Changes" comment="" />
+      <created>1656354308866</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656354437549</updated>
+      <updated>1656354308866</updated>
     </task>
     <servers />
   </component>
@@ -95,7 +96,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Client_java$Client.ic" NAME="Client Coverage Results" MODIFIED="1656799424007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Server$Server.ic" NAME="Server Coverage Results" MODIFIED="1656798224327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Nkala.*</FILTER>
     </SUITE>
   </component>

@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Client {
     public static  void main (String[] args){
-        try(Socket socket = new Socket("localhost", 5000)){
+        try(Socket socket = new Socket("localhost", 5000)){ /*I used the JAVA API classes to create my sockets.*/
             BufferedReader echoes = new BufferedReader(
                     new InputStreamReader(socket.getInputStream()));
             PrintWriter StringToEcho = new PrintWriter(socket.getOutputStream(), true);
