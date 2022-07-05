@@ -29,7 +29,7 @@ print(camera())
 def communicationSys():
 
     commList = ["Phone 1", "Phone 2", "Phone 3"]
-    for comm in commList: # type IN and return
+    for comm in commList: # type IN
         return comm
 
 print(communicationSys())
@@ -37,7 +37,7 @@ print(communicationSys())
 
 def exit_Door():
     exitDoor = "";
-    while exitDoor is not "exit": # type is not
+    while exitDoor != "exit": # type is not
         return "You are still in the Warehouse."
         if exitDoor == "exit".capitalize():
             break
