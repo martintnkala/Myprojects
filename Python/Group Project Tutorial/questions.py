@@ -5,7 +5,8 @@ import math
 tutorialQuestions = {
         "question1": {
         "question": "___ front_door",
-        "answer": "if"
+        "answer": "if",
+        "description":" "
     },
         "question2": {
         "question": "___ opened_Office_Door",
@@ -44,3 +45,8 @@ tutorialQuestions = {
 
 with open("tutorial.json", "w") as outfile:
     json.dump(tutorialQuestions, outfile)
+
+
+tutorialParsed = json.loads(tutorialQuestions)
+
+print(tutorialQuestions["question"])
