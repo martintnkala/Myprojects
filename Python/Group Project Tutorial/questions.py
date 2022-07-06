@@ -35,11 +35,8 @@ tutorialQuestions = {
      "question8": {
         "question": "fifteen_floordiv_nine = 15 __ 9" ,
         "answer": "//"
-    },
-     "question9": {
-        "question": "fifteen_floordiv_nine = 15 __ 9" ,
-        "answer": "//"
-    },
+    }
+    
 
     
 
