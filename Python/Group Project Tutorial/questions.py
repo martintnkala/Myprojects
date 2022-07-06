@@ -16,8 +16,8 @@ tutorialQuestions = {
         "answer": "in"
     },
      "question4": {
-        "question": "while exitDoor __ 'exit':\n "'return You are still in the Warehouse.',
-        "answer": "!="
+        "question": "__ exitDoor != 'exit':\n "'return You are still in the Warehouse.',
+        "answer": "while"
     },
     "question5": {
         "question": "eight_squared = 8 __ 2",
@@ -33,6 +33,10 @@ tutorialQuestions = {
         "answer": "sqrt"
     },
      "question8": {
+        "question": "fifteen_floordiv_nine = 15 __ 9" ,
+        "answer": "//"
+    },
+     "question9": {
         "question": "fifteen_floordiv_nine = 15 __ 9" ,
         "answer": "//"
     },
