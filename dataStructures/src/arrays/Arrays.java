@@ -33,5 +33,40 @@ public class Arrays {
 
         }
         System.out.println(idx);
+
+        // find the max number in an array
+
+        int[] listOfNumbers = {11, 12, 13, 24, 30, 50};
+
+//        int max = 0;
+//        for (int i = 0; i < listOfNumbers.length; i++){
+//            if (max < listOfNumbers[i]){
+//                max = listOfNumbers[i];
+//            }
+//        }
+//        System.out.println(" The largest number is " + max);
+//
+//        int[] myNumbers = {1, 5, 10, -11, 12};
+//
+//        int leftPointer = 0;
+//        int rightPointer = myNumbers.length -1;
+//        for (int j : myNumbers){
+//            while(leftPointer < rightPointer) {
+//                if (myNumbers[leftPointer] - myNumbers[rightPointer] == 16){
+//                    int leftNumber = myNumbers[leftPointer];
+//                    int rightNumber = myNumbers[rightPointer];
+//
+//                    int[] pair = {leftNumber, rightNumber};
+//
+//                }
+//
+//            }
+//
+//            System.out.println(j);
+        }
     }
+
+    // I am using the for each loop.
+
+
 }

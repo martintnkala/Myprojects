@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ba87c1-c180-4e69-a3f4-40502699d7b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Server/Nkala/Echoer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Nkala/Echoer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Nkala/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Nkala/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clientt/src/Client/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Networking/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Networking/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nkala/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nkala/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Group Project Tutorial/questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Group Project Tutorial/questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/tutorial.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/tutorial.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
