@@ -1,13 +1,16 @@
 # 1. Name: 
-#    -your name-
+#    Martin Nkala
 # 2. Assignment Name: 
 #    Lab 01: Python Review
 # 3. Assignment Description:
-#    -describe what this program is meant to do-
-# 4. What was the hardest part? Be as specific as possible.
-#    -a paragraph or two about how the assignment went for you-
+#    This is a number guessing game. It will prompt a user to enter guess a number until the guess matches the randomly generated number.
+# 4. What was the hardest part? Be as specific as possible. 
+# There was honestly nothing hard, I was able to complete it without any hurdles.
+#  This assignement really helped improve my thought process. 
+#  Before I did some coding I made sure that I understood what the problem needs me to do.
+# I wrote down what I understood. I then wrote down all the things I would need to accomplish it such as variables, a list, loop etc.
 # 5. How long did it take for you to complete the assignment?
-#    -total time in hours including reading the assignment and submitting the program-  
+#    2 hours  
 
 import random
 
@@ -16,9 +19,8 @@ print('\nThis is the "guess a number" game.\nYou try to guess a random number in
 
 # Prompt the user for how difficult the game will be. Ask for an integer
 
-print("One a scale from '1-5'. How difficult do you think the game will be?\n")
 
-gamedifficultScale = int(input("Enter a number: "))
+gamedifficultScale = int(input("One a scale from '1 - 5'. How difficult do you think the game will be? "))
 
 # Generate a random number between 1 and the chosen value
 value_max = 100
@@ -32,25 +34,14 @@ while userInput != value_random:
     userInput = int(input("Pick a positive integer: "))
     count += 1
     guessList.append(userInput)
+    
     if userInput > value_random:
-        print("Too high!")
+        print(f"{userInput}, Too high!")
     if userInput < value_random:
-        print("Too low")
+        print(f"{userInput}, Too low")
     if userInput == value_random:
-        exit
+        exit # Will jump out of the while Loop once user input matches the random number.
 print(f"You were able to find the number in {count} guesses.")
-print(f"The numbers you guessed were: {guessList}")
+print(f"The numbers you guessed were: {guessList}") # This will give me an array of 
 
-# Give the user instructions as to what he or she will be doing
 
-# Initialize the sentinal and the array of guesses
-
-# Play the guessing game
-
-    # Prompt the user for a number
-
-    # Store the number in an array so it can be displayed later
-
-    # Make a decision: was the guess too high, too low, or just right
-
-# Give the user a report: How many guesses and what the guesses where
