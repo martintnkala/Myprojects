@@ -22,7 +22,7 @@ print('\nThis is the "guess a number" game.\nYou try to guess a random number in
 
 gamedifficultScale = int(input("One a scale from '1 - 5'. How difficult do you think the game will be? "))
 
-# Generate a random number between 1 and the chosen value
+# Generate a random number between 1 and the chosen value(value_max)
 value_max = 100
 value_random = random.randint(1, value_max)
 guessList = []
@@ -42,6 +42,6 @@ while userInput != value_random:
     if userInput == value_random:
         exit # Will jump out of the while Loop once user input matches the random number.
 print(f"You were able to find the number in {count} guesses.")
-print(f"The numbers you guessed were: {guessList}") # This will give me an array of 
+print(f"The numbers you guessed were: {guessList}") # This will give me an array of all the guesses I made.
 
 
