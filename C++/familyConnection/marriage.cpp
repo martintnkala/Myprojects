@@ -8,8 +8,8 @@ using namespace std;
 
 
     }
-    void Marriage:: set_state(string marriagestate){
-        state = marriagestate;
+    void Marriage::  set_city(string marriagecity){
+        city = marriagecity;
 
 
     }

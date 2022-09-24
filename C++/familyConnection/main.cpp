@@ -12,9 +12,10 @@ using namespace std;
     */
 int main(){
         Marriage *marriage = new Marriage;
-
-
-        marriage ->set_city("Bindura ");
+        string name;
+        cout << "Enter city name: ";
+        cin >> name;
+        marriage ->set_city(name);
         marriage ->set_state("Masholand Central ");
         marriage->set_country("Zimbabwe ");
 
