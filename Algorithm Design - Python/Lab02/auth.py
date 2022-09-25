@@ -20,46 +20,41 @@ import json
 #      The many issue was on jumping out of the for loop.
 # 5. How long did it take for you to complete the assignment?
 #      4 hours
-
-try:
-    authentication_file = open("Lab02.json", "r")
-    dictionary_data = json.load(authentication_file)
-    
-    message_to_display = "You are not authorized to use the system."
-    
-    #Prompt user for input
-    username_input = input("Enter username: ")
-    user_password_input = input("Enter password: ")
-    
-    # Converted my dictionary into two arrays using the keys.
-    username_list = dictionary_data['username']
-    password_list = dictionary_data['password']
-    
-    # I am traversing each array once and 
-    # then use the index to search for each value. 
-    # In terms of time its O(n) and space is O(n)
-    # count = 0
-    for i in range(len(username_list)):
-        if username_input in username_list[i]:
-            user_idx = i
+while True:
+    try:
+        authentication_file = open("Lab02.json", "r")
+        dictionary_data = json.load(authentication_file)
         
-    for j in range(len(password_list)):
-        if user_password_input in password_list[j]:
-            user_password_idx = j
+        #Prompt user for input
+        username_input = input("Enter username: ")
+        user_password_input = input("Enter password: ")
+        
+        # Converted my dictionary into two arrays using the keys.
+        username_list = dictionary_data['username']
+        password_list = dictionary_data['password']
+        
+        # I am traversing each array once and 
+        # then use the index to search for each value. 
+        # In terms of time its O(n) and space is O(n)
+        
+        
+        count = 0
+        for i in range(len(username_list)):
+            if username_input in username_list[i]:
+                user_idx = i
             
-            if user_idx == user_password_idx:
-                # count+=1
-                print("You are authenticated.")
-            else: 
-                print(message_to_display)  
-                
-    # print(user_idx, user_password_idx)         
-    # if count == 1:
-    #     print("You are authenticated.")
-            
-    # else:
-    #     print(message_to_display)    
+        for j in range(len(password_list)):
+            if user_password_input in password_list[j]:
+                user_password_idx = j     
+                if user_idx == user_password_idx:
+                    count +=1
+                    
+        if count == 1:
+            print("You are authenticated.")
+        else: 
+            print("You are not authorized to use the system.")  
+                    
 
-    authentication_file.close()
-except OSError:
-    print("Can't be able to open the Lab02 file.")
+        authentication_file.close()
+    except OSError:
+        print("Can't be able to open the Lab02 file.")
