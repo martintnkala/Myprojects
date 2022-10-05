@@ -9,7 +9,6 @@
 #define Account_hpp
 #include <stdio.h>
 #include <string>
-#include <list>
 using namespace std;
 
 class Account{
@@ -22,15 +21,12 @@ private:
     float withdraw;
     
 public:
-    Account();
+    void setIdNumber(int accountIdNumber);
     
-    Account(int accountIdNumber,string account,float accountBalance);
-//    void setIdNumber(;
-//    void setAccountname();
-//    void setbalance ();
+    void setAccountname(string account);
+    void setbalance (float accountBalance);
     void setdeposit(float makeDeposit);
     void setwithdraw(float makeWithdrawal);
-//    void addAccount(list<Account>& accountList(int id, string account, float balance));
     
     int getidNumber();
     

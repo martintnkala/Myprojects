@@ -10,23 +10,18 @@
 
 using namespace std;
 
-Account::Account(int accountIdNumber,string account,float accountBalance) {
+
+void Account::setIdNumber(int accountIdNumber){
     idNumber = accountIdNumber;
-    balance = accountBalance;
-    this->account = account;
-    
 }
-//void Account::setIdNumber(int accountIdNumber){
-//    idNumber = accountIdNumber;
-//}
-//
-//void Account::setAccountname(string accountName){
-//    account = accountName;
-//}
-//
-//void Account::setbalance (float accountBalance){
-//    balance = accountBalance;
-//}
+
+void Account::setAccountname(string accountName){
+    account = accountName;
+}
+
+void Account::setbalance (float accountBalance){
+    balance = accountBalance;
+}
 
 void Account::setdeposit(float makeDeposit){
     deposit =  makeDeposit;

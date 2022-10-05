@@ -1,0 +1,3 @@
+f = open("name.txt", "a")
+f.write("Martin Nkala")
+f.close()
