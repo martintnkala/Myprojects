@@ -27,7 +27,7 @@ public:
     Account(int accountIdNumber,string account,float accountBalance);
 //    void setIdNumber(;
 //    void setAccountname();
-//    void setbalance ();
+    void setbalance (float newBalance);
     void setdeposit(float makeDeposit);
     void setwithdraw(float makeWithdrawal);
 //    void addAccount(list<Account>& accountList(int id, string account, float balance));

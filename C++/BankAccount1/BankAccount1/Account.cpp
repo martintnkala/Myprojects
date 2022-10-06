@@ -24,9 +24,9 @@ Account::Account(int accountIdNumber,string account,float accountBalance) {
 //    account = accountName;
 //}
 //
-//void Account::setbalance (float accountBalance){
-//    balance = accountBalance;
-//}
+void Account::setbalance (float accountBalance){
+    balance = accountBalance;
+}
 
 void Account::setdeposit(float makeDeposit){
     deposit =  makeDeposit;
