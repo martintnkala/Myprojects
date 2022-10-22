@@ -7,26 +7,28 @@
 
 #ifndef Account_hpp
 #define Account_hpp
+#include "Contact.hpp"
 #include <stdio.h>
 #include <string>
 #include <list>
+#include <memory>
 using namespace std;
 
 class Account{
     // Declaring variables.
-private:
+protected:
     int idNumber;
     string account;
     float balance;
     float deposit;
     float withdraw;
-    
+    shared_ptr<Contact> account_info;
 public:
     Account();
     
     Account(int accountIdNumber,string account,float accountBalance);
-//    void setIdNumber(;
-//    void setAccountname();
+    void setIdNumber();
+    void setAccountname();
     void setbalance (float newBalance);
     void setdeposit(float makeDeposit);
     void setwithdraw(float makeWithdrawal);
@@ -41,6 +43,8 @@ public:
     float getdeposit();
     
     float getwithdrawal();
+    //    Add contact method
+    void add_contact_info();
 };
 
 #endif /* Account_hpp */
