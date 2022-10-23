@@ -6,3 +6,7 @@
 //
 
 #include "dob.hpp"
+#include <string>
+using namespace std;
+
+

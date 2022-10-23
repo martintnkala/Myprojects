@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0156D893290223B600C0E6FF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0156D892290223B600C0E6FF /* main.cpp */; };
+		0156D89B290223E500C0E6FF /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0156D899290223E500C0E6FF /* person.cpp */; };
+		0156D8A12902243700C0E6FF /* marriage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0156D89F2902243700C0E6FF /* marriage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0156D88F290223B600C0E6FF /* familyInformationTracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = familyInformationTracker; sourceTree = BUILT_PRODUCTS_DIR; };
 		0156D892290223B600C0E6FF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0156D899290223E500C0E6FF /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
+		0156D89A290223E500C0E6FF /* person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = person.hpp; sourceTree = "<group>"; };
+		0156D89F2902243700C0E6FF /* marriage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = marriage.cpp; sourceTree = "<group>"; };
+		0156D8A02902243700C0E6FF /* marriage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = marriage.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0156D892290223B600C0E6FF /* main.cpp */,
+				0156D899290223E500C0E6FF /* person.cpp */,
+				0156D89A290223E500C0E6FF /* person.hpp */,
+				0156D89F2902243700C0E6FF /* marriage.cpp */,
+				0156D8A02902243700C0E6FF /* marriage.hpp */,
 			);
 			path = familyInformationTracker;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0156D8A12902243700C0E6FF /* marriage.cpp in Sources */,
+				0156D89B290223E500C0E6FF /* person.cpp in Sources */,
 				0156D893290223B600C0E6FF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
