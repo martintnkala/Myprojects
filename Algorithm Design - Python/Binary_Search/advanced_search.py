@@ -1,6 +1,5 @@
 
 import json
-from math import floor
 
 # 1. Name:
 #      Martin Nkala
