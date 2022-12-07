@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ce39ca5-a4cc-4371-a182-4576021a3861" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../dataStructures/src/CodingIsFun/Marvian/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm Design - Python/Francois/francois.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm Design - Python/Francois/francois.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BankAcc_usingClasses" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BankAcc_usingClasses" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BankAccount-iterators./BankAccount1.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BankAccount-iterators./BankAccount1.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BankAccount-iterators./BankAccount1.xcodeproj/xcuserdata/marvian.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BankAccount-iterators./BankAccount1.xcodeproj/xcuserdata/marvian.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BankAccount-iterators./BankAccount1/program.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BankAccount-iterators./BankAccount1/program.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker.xcodeproj/xcuserdata/marvian.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker.xcodeproj/xcuserdata/marvian.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker/dob.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker/dob.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker/marriage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker/marriage.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker/person.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/familyInfromationTracker/familyInformationTracker/familyInformationTracker/person.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/learning_debugging" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/learning_debugging" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssertsStatements/src/Nkala/AssertsStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AssertsStatements/src/Nkala/AssertsStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dataStructures/src/CodingIsFun/Nkala/Francios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dataStructures/src/CodingIsFun/Nkala/Francios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dataStructures/src/Nkala/recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../dataStructures/src/Nkala/recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dataStructures/src/arrays/Arrays.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Hf6KpKs64n8BMy7i2tU4qYukV7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hello-maven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hello-maven" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ce39ca5-a4cc-4371-a182-4576021a3861" name="Changes" comment="" />
+      <created>1668663733094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668663733094</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
