@@ -41,24 +41,24 @@ int main(int argc, const char * argv[]) {
                     cout << " Your choice: " << choice << "\n";
             
         if (choice == 1) {
-            
-            for (Account* account : accounts) {
-                    cout << " Account ID: " << account->getidNumber() << " Name: " << account->getaccountName() << " Balance: " << account->getbalance() << endl;
+            vector<Account>:: iterator it;
+            for (it = accounts.begin(); it != accounts.end(); it++) {
+                cout << " Account ID: " << it ->getidNumber() << " Name: " << it -> getaccountName() << " Balance: " << it -> getbalance() << endl;
             }
         }
-            
+        
             if (choice == 2){
-                
+                vector<Account>:: iterator it;
                 cout << "Enter the ID of the account to find: ";
                 cin >> searchById;
-                for (Account* account : accounts) {
-                    if(searchById == account -> getidNumber()){
-                        cout << " Found Account: AccountID: " << account -> getidNumber() << " Name: " << account->getaccountName() << " Balance: " << account -> getbalance() << endl;
+                for (it = accounts.begin(); it != accounts.end(); it++) {
+                    if(searchById == it -> getidNumber()){
+                        cout << " Found Account: AccountID: " << it -> getidNumber() << " Name: " << it ->getaccountName() << " Balance: " << it -> getbalance() << endl;
                         cout << " Deposit amount: ";
                         cin >> deposit;
-                        float balance = account -> getbalance();
+                        float balance = it -> getbalance();
                         balance += deposit;
-                        account -> setbalance(balance);
+                        it -> setbalance(balance);
                         
                 } else{
                     cout << " Account not found. ";
@@ -70,15 +70,16 @@ int main(int argc, const char * argv[]) {
             if (choice == 3){
                 cout << "Enter the ID of the account to find: ";
                 cin >> searchById;
-                for (Account* account : accounts){
-                    if(searchById == account ->getidNumber()){
-                        cout << " Found Account: AccountID: " << account -> getidNumber()
-                        << " Name: " << account ->getaccountName() << " Balance: " << account -> getbalance() << endl;
+                vector<Account>:: iterator it;
+                for (it = accounts.begin(); it != accounts.end(); it++){
+                    if(searchById == it ->getidNumber()){
+                        cout << " Found Account: AccountID: " << it ->getidNumber()
+                        << " Name: " << it -> getaccountName() << " Balance: " << it -> getbalance() << endl;
                         cout << " Withdrawal amount: ";
                         cin >> withdraw;
-                        float balance = account -> getbalance();
+                        float balance = it -> getbalance();
                         balance -= withdraw;
-                        account -> setbalance(balance);
+                        it ->setbalance(balance);
                     }else{
                         cout << " Account not found. ";
                     }
@@ -102,9 +103,10 @@ int main(int argc, const char * argv[]) {
             if (choice == 5){
                 cout << "Enter the ID of the account to find: ";
                 cin >> searchById;
-                for (Account* account : accounts){
-                    if(searchById == account ->getidNumber()){
-                        cout << " Found Account: AccountID: " << account -> getidNumber() << " Name: " << account ->getaccountName() << " Balance: " << account -> getbalance() << endl;
+                vector<Account>:: iterator it;
+                for (it = accounts.begin(); it != accounts.end(); it++){
+                    if(searchById == it ->getidNumber()){
+                        cout << " Found Account: AccountID: " << it ->getidNumber() << " Name: " << it ->getaccountName() << " Balance: " << it ->getbalance() << endl;
                     } else{
                         cout << " Account not found. " << endl;
                     }

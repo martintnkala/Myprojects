@@ -4,6 +4,7 @@ while True:
     # This Array will a range of numbers
     # based on the user input.
     primes = []
+    primes_list = []
 
     # Prompt for user input
     user_input = int(input("Enter a number: "))
@@ -31,15 +32,12 @@ while True:
                 
                 for idx in range(start_idx, len(primes), num_value):
                     primes[idx] = 0
-    
-    # primes = filter(lambda unwanted_num: unwanted_num != 0, primes)
-      
-    # print(list(primes)) 
                          
     for value in primes:
         
         if value != 0:
-            print(value, end = " ")
-    print()       
+            primes_list.append(value)
+    print(primes_list)
+         
         
         
