@@ -26,8 +26,7 @@ while True:
             # Value is each number in my list 
             # based on the index position.
             num_value = numbers[num_idx]
-            print(num_value)
-            
+                        
             if num_value != 0:
                 
                 # I am finding all even numbers 
