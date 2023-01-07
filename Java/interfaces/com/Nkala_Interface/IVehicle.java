@@ -1,6 +1,6 @@
 package com.Nkala_Interface;
 
-public interface Ivehicle {
+public interface IVehicle {
 //    No VARIABLES are allowed to be declared by the interface.
 //
 //    An interface is about actions that are allowed, not about data or implementation of those actions.
@@ -10,5 +10,5 @@ public interface Ivehicle {
 //    There is no code after the function prototype. The normal {} are replaced with a single semi-colon.
 
     public void start_engine();
-    public void stop_engine();
+    public void drive();
 }
