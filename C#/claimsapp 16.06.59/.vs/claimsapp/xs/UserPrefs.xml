@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C7743967-4CD8-4FC8-8BE3-AA8E626C27F5}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.claimsapp.web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="claimsapp.domain/Entities/Member.cs">
+    <Files>
+      <File FileName="claimsapp.domain/Entities/Gender.cs" />
+      <File FileName="claimsapp.domain/Entities/IdentificationType.cs" />
+      <File FileName="claimsapp.domain/Entities/Member.cs" Line="1" Column="1" />
+      <File FileName="claimsapp.domain/Entities/Audit.cs" />
+      <File FileName="claimsapp.domain/Entities/StatusType.cs" />
+      <File FileName="claimsapp.domain/Data/ClaimsAppDbContext.cs" />
+      <File FileName="claimsapp.web/Program.cs" Line="15" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="claimsapp" expanded="True">
+            <Node name="claimsapp.domain" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
