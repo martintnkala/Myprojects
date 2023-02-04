@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A52B31298A205700798407 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A52B30298A205700798407 /* main.cpp */; };
+		01A52B39298A207100798407 /* angle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A52B37298A207100798407 /* angle.cpp */; };
+		01A52B3B298A211800798407 /* angletest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A52B3A298A211800798407 /* angletest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		01A52B2D298A205700798407 /* Methods */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Methods; sourceTree = BUILT_PRODUCTS_DIR; };
-		01A52B30298A205700798407 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		01A52B37298A207100798407 /* angle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = angle.cpp; sourceTree = "<group>"; };
+		01A52B38298A207100798407 /* angle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = angle.h; sourceTree = "<group>"; };
+		01A52B3A298A211800798407 /* angletest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = angletest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		01A52B2F298A205700798407 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
-				01A52B30298A205700798407 /* main.cpp */,
+				01A52B37298A207100798407 /* angle.cpp */,
+				01A52B38298A207100798407 /* angle.h */,
+				01A52B3A298A211800798407 /* angletest.cpp */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01A52B31298A205700798407 /* main.cpp in Sources */,
+				01A52B39298A207100798407 /* angle.cpp in Sources */,
+				01A52B3B298A211800798407 /* angletest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
