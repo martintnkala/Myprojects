@@ -300,10 +300,10 @@ void draw(const char* board, const Interface & ui, const set <int> & possible)
          gout.drawPawn(i, false);
          break;
       case 'K':
-         gout.drawKing(i, true);
+         gout.draw(i, true);
          break;
       case 'k':
-         gout.drawKing(i, false);
+         gout.draw(i, false);
          break;
       case 'Q':
          gout.drawQueen(i, true);

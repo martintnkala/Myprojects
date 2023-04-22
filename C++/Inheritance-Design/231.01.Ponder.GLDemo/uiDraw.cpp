@@ -152,7 +152,7 @@ void ogstream::drawPiece(int x, int y, bool black, Rect rectangle[], int num) co
 *   INPUT  location  The location of the king
 *          black     Whether the king is black
 *************************************************************************/
-void ogstream::drawKing(int pos, bool black)
+void ogstream::draw(int pos, bool black)
 {
    Rect rectangles[] =
    {

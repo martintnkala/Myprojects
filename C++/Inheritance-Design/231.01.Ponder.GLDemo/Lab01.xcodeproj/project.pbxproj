@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0192E69029F480CA00004651 /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0192E68E29F480CA00004651 /* Piece.cpp */; };
+		0192E69329F48A3500004651 /* King.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0192E69129F48A3500004651 /* King.cpp */; };
 		C12A3BF5255D7A5500C22728 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12A3BF4255D7A5500C22728 /* GLUT.framework */; };
 		C12A3BF7255D7A5C00C22728 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12A3BF6255D7A5C00C22728 /* OpenGL.framework */; };
 		C13286172578104100FCEC47 /* chess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C13286112578104000FCEC47 /* chess.cpp */; };
@@ -27,6 +29,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0192E68E29F480CA00004651 /* Piece.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Piece.cpp; sourceTree = "<group>"; };
+		0192E68F29F480CA00004651 /* Piece.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Piece.hpp; sourceTree = "<group>"; };
+		0192E69129F48A3500004651 /* King.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = King.cpp; sourceTree = "<group>"; };
+		0192E69229F48A3500004651 /* King.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = King.hpp; sourceTree = "<group>"; };
 		C12A3BDD255D79CF00C22728 /* Lab01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab01; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12A3BF4255D7A5500C22728 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		C12A3BF6255D7A5C00C22728 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -54,6 +60,10 @@
 		C12A3BD4255D79CF00C22728 = {
 			isa = PBXGroup;
 			children = (
+				0192E69129F48A3500004651 /* King.cpp */,
+				0192E69229F48A3500004651 /* King.hpp */,
+				0192E68E29F480CA00004651 /* Piece.cpp */,
+				0192E68F29F480CA00004651 /* Piece.hpp */,
 				C13286112578104000FCEC47 /* chess.cpp */,
 				C13286122578104000FCEC47 /* point.h */,
 				C13286132578104000FCEC47 /* uiDraw.cpp */,
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0192E69029F480CA00004651 /* Piece.cpp in Sources */,
 				C13286172578104100FCEC47 /* chess.cpp in Sources */,
 				C13286182578104100FCEC47 /* uiDraw.cpp in Sources */,
 				C13286192578104100FCEC47 /* uiInteract.cpp in Sources */,
+				0192E69329F48A3500004651 /* King.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

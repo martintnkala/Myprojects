@@ -12,6 +12,7 @@
 #pragma once
 
 #include <sstream>    // for OSTRINGSTRING
+#include"King.hpp"
 using std::string;
 
  /*************************************************************************
@@ -19,12 +20,13 @@ using std::string;
   * A graphics stream that behaves much like COUT except on a drawn screen.
   * Special methods are added to facilitate drawing simulator elements.
   *************************************************************************/
-class ogstream : public std::ostringstream
+class ogstream : public std::ostringstream, public King
 {
 public:
     ogstream() : x(0), y(0)                  {          }
     ogstream(int position): x(0), y(0)       {          }
     ~ogstream()                              { flush(); }
+  
 
     // Methods specific to drawing text on the screen
     virtual void flush();
@@ -32,7 +34,8 @@ public:
 
 
     // Methods to draw the chess pieces on the screen
-    virtual void drawKing(  int position, bool black);
+    void draw(int position, bool black);
+//    virtual void drawKing(  int position, bool black);
     virtual void drawQueen( int position, bool black);
     virtual void drawRook(  int position, bool black);
     virtual void drawPawn(  int position, bool black);
