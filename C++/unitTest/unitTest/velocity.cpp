@@ -1,8 +1,17 @@
-//
-//  velocity.cpp
-//  unitTest
-//
-//  Created by Martin Nkala on 5/23/23.
-//
+#include "velocity.h"
 
-#include "velocity.hpp"
+
+double Velocity::setDx(<#double dx#>)
+{
+   return 0.0;
+}
+double Velocity::setDy(<#double dy#>)
+{
+   return 0.1;
+}
+
+void Velocity::getDx(0.0);
+
+
+void Velocity::getDy(1.0);
+
