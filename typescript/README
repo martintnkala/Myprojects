@@ -1,0 +1,13 @@
+# It's a language that was created to address the shortcomings of javascript.
+# typescript is a superset of javascript meaning it builds on top of javascript.
+# It more of a statically-typed language meaning errors are caught at compile unlike javascript which
+# is a dynamically-typed language.
+
+
+## Drawbacks
+# Since most browsers don't understand typescript the compiler needs to transpilate ts code into js code (Transpilation)
+# Discipline in coding.
+
+
+## Production Environments
+# ts is more ideal for medium to large projects and js for small projects.
