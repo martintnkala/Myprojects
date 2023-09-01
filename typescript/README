@@ -11,3 +11,7 @@
 
 ## Production Environments
 # ts is more ideal for medium to large projects and js for small projects.
+
+
+## Creating a tsconfig file
+# Use tsc --init
