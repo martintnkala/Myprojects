@@ -1,9 +1,10 @@
-import Message from "./message";
-import Button from "./button";
+// import Message from "./message";
+// import Button from "./button";
+import GroupList from "./components/GroupList";
 
 function App()
 {
-  return <div><Message /><Button/></div>
+  return <div><GroupList /></div>
 }
 
 export default App;
