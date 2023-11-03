@@ -5,11 +5,11 @@ i_last = len(nums)-1
 i_mid = (i_first + i_last)//2
 
 for num in nums:
-    print(num)
-if nums != None:
-    temp = nums[i_first] 
-    nums[i_first] = nums[i_last]
-    nums[i_last] = temp
+    # print(num)
+    if nums != None:
+        temp = nums[i_first] 
+        nums[i_first] = nums[i_last]
+        nums[i_last] = temp
 
     
 if len(nums) % 2 != 0:
