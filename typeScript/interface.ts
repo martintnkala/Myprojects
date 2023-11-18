@@ -22,7 +22,10 @@ class PDetails implements Person{
 
 
 function personalDetails(person: Person){
-
+person.name;
+person.surname;
+person.gender;
+person.age;
 }
 
 personalDetails(new PDetails());

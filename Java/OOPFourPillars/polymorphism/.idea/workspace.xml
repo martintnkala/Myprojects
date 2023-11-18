@@ -2,120 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27888092-ab01-4715-8aee-02b5d21260d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/xcuserdata/marvian.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/xcuserdata/marvian.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/PrimesNumbers/PrimesNumbers.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/PrimesNumbers/PrimesNumbers.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/PrimesNumbers/PrimesNumbers.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/PrimesNumbers/PrimesNumbers.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/PrimesNumbers/PrimesNumbers.xcodeproj/xcuserdata/marvian.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/PrimesNumbers/PrimesNumbers/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/Factory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/CalculatorStrategy/ClientApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/CalculatorStrategy/Context.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/CalculatorStrategy/OpeationSubstract.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/CalculatorStrategy/OperationAdd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/CalculatorStrategy/Strategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/factory/Android.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/factory/FactoryMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/factory/IOS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/factory/OS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/factory/OSFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/factory/Windows.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/strategy/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/strategy/SortByName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/strategy/SortByRating.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/strategy/SortingStragegy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/out/production/Factory/com/strategy/sortbyPrice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/CalculatorStrategy/ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/CalculatorStrategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/CalculatorStrategy/OperationAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/CalculatorStrategy/OperationSubstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/CalculatorStrategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/factory/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/factory/FactoryMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/factory/IOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/factory/OS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/factory/OSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/factory/Windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/strategy/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/strategy/SortByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/strategy/SortByRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/strategy/SortingStragegy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Design-Patterns/Factory/src/com/strategy/sortbyPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java-Collections/out/production/Java-Collections/com/codingIsFun/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/xcuserdata/marvian.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C#/claimsapp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/claimsapp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/scheduling.contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/scheduling.contracts.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/scheduling.domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/scheduling.domain.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C++/Bank-Project/BankAcc_usingClasses" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Bank-Project/BankAcc_usingClasses" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/Pointers/Pointers/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/Templates/Templates.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Templates/Templates.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/Templates/Templates/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Templates/Templates/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C++/chessCodeComplete" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/chessCodeComplete" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/.idea/2d Arrays.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/out/production/2d Arrays/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/out/production/2d Arrays/.idea/2d Arrays.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/out/production/2d Arrays/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/out/production/2d Arrays/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/out/production/2d Arrays/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/out/production/2d Arrays/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/out/production/2d Arrays/twodArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2d Arrays/twodArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java-Collections/out/production/Java-Collections/com/codingIsFun/sets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java-Collections/out/production/Java-Collections/com/codingIsFun/sets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java-Collections/src/com/codingIsFun/sets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java-Collections/src/com/codingIsFun/sets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Python/Algorithm Design/reversing_numbers/reverse_nums.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python/Algorithm Design/reversing_numbers/reverse_nums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apps/scheduling.domain/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apps/scheduling/.vs/schedulingapp/xs/UserPrefs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apps/scheduling/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apps/scheduling/obj/Debug/net7.0/scheduling.web.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../apps/scheduling/obj/Debug/net7.0/scheduling.web.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../jenkinsfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/src/components/GroupList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/src/main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../react-app/vite.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../typescript/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../typescript/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../typescript/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../typescript/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../typescript/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../typescript/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/IVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/IVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/IVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/IVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../typeScript/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../typeScript/interface.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

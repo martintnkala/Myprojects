@@ -1,17 +1,18 @@
 package com.Nkala_Interface;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
-//        Car car = new Car();
-//
-//        car.start_engine();
-//        car.drive();
-//        System.out.println(car);
+        var car = new Car();
+        System.out.println(main instanceof Car);
 
-        int num1 = 10;
-        int num2 = 20;
+        var main = new Main();
 
-        int result = (num1 < num2 ? num1-num2: num1 + num2); // Ternary operator.
-        System.out.println(result);
+        System.out.println(main instanceof Main);
+
     }
 }
+
+

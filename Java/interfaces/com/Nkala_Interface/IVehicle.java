@@ -10,5 +10,4 @@ public interface IVehicle {
 //    There is no code after the function prototype. The normal {} are replaced with a single semi-colon.
 
     public void start_engine();
-    public void drive();
 }
