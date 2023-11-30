@@ -1,4 +1,10 @@
 #! /bin/bash
 
 read -p 'Enter name : ' name
-echo "Hello $name, welcome to shell scripting."
+read -sp 'Password: ' password
+if [ "$password" = "Martin" ];
+then
+    echo "Hello $name, welcome to shell scripting."
+else
+    echo "Invalid password"
+fi
