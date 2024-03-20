@@ -1,14 +1,32 @@
-//
-//  main.cpp
-//  Templates
-//
-//  Created by Martin Nkala on 11/14/23.
-//
-
 #include <iostream>
+#include<string>
 
-int main(int argc, const char * argv[]) {
-   // insert code here...
-   std::cout << "Hello, World!\n";
+using namespace std;
+
+
+template <typename T>
+class Item 
+{
+private:
+   string name;
+   T value;
+   
+public:
+   
+   // constructor
+   Item(string name, T value): name{name}, value{value}
+   {}
+   // getters
+   string getName() const {return name;}
+   T getValue() const   {return value;}
+};
+
+
+int main()
+{
+   Item<int>item {"Keys", 2};
+   Item<string> item1 {"Mouse", "Laptop"};
+   
+   cout << item.getName() << " " << item.getValue() << endl;
    return 0;
 }

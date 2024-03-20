@@ -2,28 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27888092-ab01-4715-8aee-02b5d21260d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue.xcodeproj/xcuserdata/marvian.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../C++/Priority_Queue/Priority_Queue/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Collections/.idea/Collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../C++/Designing DataStructures/.idea/Designing DataStructures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Designing DS/Designing DS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Encryption/Encryption.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Levels of Friendship/Levels of Friendship.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/Application.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/Interview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/Run.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/ScreeningRubric.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/ScreeningRubric/ScreeningRubric.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/apps/scheduling.domain/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/apps/scheduling/.vs/schedulingapp/xs/UserPrefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/apps/scheduling/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/apps/scheduling/obj/Debug/net7.0/scheduling.web.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/apps/scheduling/obj/Debug/net7.0/scheduling.web.csproj.AssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C#/claimsapp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C#/claimsapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/Debug/net7.0/scheduling.contracts.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/scheduling.contracts.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/scheduling.contracts.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/obj/scheduling.contracts.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.contracts/scheduling.contracts.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/CitizenshipStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/ContractedHours.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/Course.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/Instructor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/LookUpStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/LookUpStudentStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/LookupContractLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/LookupCourseType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/Section.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Entities/TeachingAssistant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/Debug/net7.0/scheduling.domain.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/scheduling.domain.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/scheduling.domain.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/obj/scheduling.domain.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C#/schedulingapp/scheduling.domain/scheduling.domain.csproj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C++/Bank-Project/BankAcc_usingClasses" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Bank-Project/BankAcc_usingClasses" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++/Pointers/Pointers/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Pointers/Pointers/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/Collections/Collections/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Collections/Collections/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/xcuserdata/marvian.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures.xcodeproj/xcuserdata/marvian.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/DataStructures/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/Intro to DS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C++/DataStructures/Rercusion/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C++/Templates/Templates.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Templates/Templates.xcodeproj/project.xcworkspace/xcuserdata/marvian.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C++/Templates/Templates/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/Templates/Templates/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../C++/chessCodeComplete" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++/chessCodeComplete" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Designing DS/src/com/dataStructures/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Designing DS/src/com/dataStructures/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/src/EncryptionValidity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/src/EncryptionValidity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Levels of Friendship/src/Acquaintance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Levels of Friendship/src/Acquaintance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Levels of Friendship/src/BestFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Levels of Friendship/src/BestFriend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Levels of Friendship/src/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Levels of Friendship/src/Friend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Levels of Friendship/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Levels of Friendship/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/IVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/IVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/com/Nkala_Interface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/IVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/IVehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../interfaces/out/production/interfaces/com/Nkala_Interface/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../typeScript/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../typeScript/interface.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +125,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="polymorphism" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="polymorphism" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="polymorphism" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
