@@ -35,6 +35,7 @@ export const StudentManagement = () => {
       <p>Last Name: {student.lastName}</p>
       <p>Email Address: {student.emailAddress}</p>
 
+      {/* // Update firstName, lastName, and emailAddress */}
 
       <button onClick={handleClickUpdate}>Update Student Details</button>
     </div>

@@ -72,7 +72,7 @@
 	ORDER BY co.course_name;
                 
 -- QUESTION 7
-  SELECT term, year, COUNT( DISTINCT st.student_id) as 'enrollment'
+  SELECT term, year, COUNT(st.student_id) as 'enrollment'
   FROM student st 
   JOIN enrolment en 
 	 ON st.student_id = en.student_id

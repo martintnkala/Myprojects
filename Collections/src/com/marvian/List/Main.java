@@ -12,6 +12,7 @@ public class Main {
         for (Object o : numArray) {
             System.out.println(o + " ");
         }
+
         nums.sort(Integer::compare);
 
         System.out.println("Using Stream API");
