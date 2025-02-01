@@ -4,7 +4,7 @@ public class Run {
     public static void main(String[] args) {
 
         int[] array = {11, 22, 13, 44, -15, 26, 97, 88, -9};
-        int target = 44;
+        int target = 444;
 
         boolean result = LinearSearch.linearSearch(array, target);
         System.out.println(result);

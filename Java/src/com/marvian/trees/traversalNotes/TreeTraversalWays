@@ -1,0 +1,12 @@
+Ways of traversing a Tree.
+
+1. Level:
+    - Visit nodes on each level(left to right)
+2. Pre-Order:
+    - Visit the root of every subTree first(root, left, right)
+3. Post-Order:
+    - Visit the root of every subTree last(left, then right, then root)
+    - Do the left side first.
+4. In-Order:
+    - Visit left child, then root, then right child
+    - It is sorted.

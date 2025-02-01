@@ -11,8 +11,4 @@ public class LinearSearch {
         }
         return false;
     }
-
-    // no-args constructor
-    public LinearSearch() {
-    }
 }
