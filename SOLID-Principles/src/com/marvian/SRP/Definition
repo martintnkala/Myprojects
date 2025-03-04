@@ -1,0 +1,3 @@
+Single Responsibility Principle:
+- Every class must perform a single functionality.
+- Implementation of multiple functionalities will mashup the code

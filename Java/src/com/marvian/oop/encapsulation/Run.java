@@ -1,6 +1,4 @@
-package com.marvian.oop.run;
-
-import com.marvian.oop.encapsulation.Encapsulation;
+package com.marvian.oop.encapsulation;
 
 public class Run {
     public static void main(String[] args) {
